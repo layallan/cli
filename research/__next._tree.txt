@@ -1,0 +1,6 @@
+:HL["/cls/_next/static/chunks/0ta98ao8pn4.x.css","style"]
+:HL["/cls/images/frontiers/autonomous.jpg","image"]
+:HL["/cls/images/frontiers/quantum.jpg","image"]
+:HL["/cls/images/frontiers/health.jpg","image"]
+:HL["/cls/images/frontiers/materials.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"U8GKR6OoHpboSrXXqo0f0"}
