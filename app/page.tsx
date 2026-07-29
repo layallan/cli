@@ -19,9 +19,9 @@ export default function Home() {
                 how to think.
               </h1>
               <p className="hero-deck">
-                We are building a common framework for programming light,
-                interrogating matter, inferring hidden physical states, and
-                adapting experiments.
+                We are shaping a new scientific paradigm in which light can
+                sense, infer, adapt, and act—transforming how we understand
+                matter, control complex systems, and accelerate discovery.
               </p>
               <div className="hero-actions">
                 <Link className="button button-primary" href="/research">

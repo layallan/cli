@@ -17,7 +17,7 @@ export default function ResearchPage() {
         <PageHero
           eyebrow="Research"
           title="Light Intelligence is a new experimental language."
-          description="It provides a common framework for programming light, interrogating matter, inferring hidden physical states, and adapting experiments. We translate these capabilities across four application frontiers."
+          description="Light Intelligence unites programmable light, physical inference, and adaptive experimentation. It enables light to interrogate matter, reveal hidden states, and reshape experiments in real time across four application frontiers."
         />
         <section className="section shell research-list">
           {frontiers.map((frontier, index) => (
