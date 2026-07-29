@@ -1,6 +1,6 @@
-:HL["/cls/_next/static/chunks/0csje8cmlh0x5.css","style"]
-:HL["/cls/images/frontiers/autonomous.jpg","image"]
-:HL["/cls/images/frontiers/quantum.jpg","image"]
-:HL["/cls/images/frontiers/health.jpg","image"]
-:HL["/cls/images/frontiers/materials.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"HGGrbWab6bzzP2cRROeBT"}
+:HL["/cli/_next/static/chunks/0csje8cmlh0x5.css","style"]
+:HL["/cli/images/frontiers/autonomous.jpg","image"]
+:HL["/cli/images/frontiers/quantum.jpg","image"]
+:HL["/cli/images/frontiers/health.jpg","image"]
+:HL["/cli/images/frontiers/materials.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"cJ1JcwDVGMbo97rTvEUd3"}
