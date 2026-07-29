@@ -405,22 +405,6 @@ h3 {
   transform: scale(1.018);
 }
 
-.frontier-image > span,
-.research-image > span {
-  position: absolute;
-  z-index: 2;
-  top: 16px;
-  left: 16px;
-  display: grid;
-  width: 38px;
-  height: 38px;
-  place-items: center;
-  border-radius: 50%;
-  background: rgba(244, 242, 236, 0.9);
-  font-size: 10px;
-  letter-spacing: 0.08em;
-}
-
 .frontier-card-copy {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(220px, 1.1fr);

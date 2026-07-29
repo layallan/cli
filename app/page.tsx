@@ -55,7 +55,7 @@ export default function Home() {
             </p>
           </div>
           <div className="frontier-grid">
-            {frontiers.map((frontier, index) => (
+            {frontiers.map((frontier) => (
               <Link
                 className="frontier-card"
                 href={`/research#${frontier.slug}`}
@@ -63,7 +63,6 @@ export default function Home() {
               >
                 <div className="frontier-image">
                   <img src={frontier.image} alt="" />
-                  <span>0{index + 1}</span>
                 </div>
                 <div className="frontier-card-copy">
                   <h3>{frontier.title}</h3>

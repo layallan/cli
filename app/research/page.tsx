@@ -28,7 +28,6 @@ export default function ResearchPage() {
           >
               <div className="research-image">
                 <img src={frontier.image} alt="" />
-                <span>0{index + 1}</span>
               </div>
               <div className="research-copy">
                 <p className="eyebrow">Application frontier 0{index + 1}</p>
