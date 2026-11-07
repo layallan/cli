@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <title>AI-controlled 4f pulse shaper with reflection gratings</title>
+  <defs>
+    <pattern id="pixels" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#545d64"/>
+      <path d="M0 0H6M0 0V6" stroke="#b4c1be" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="grooves" width="5" height="5" patternUnits="userSpaceOnUse">
+      <rect width="5" height="5" fill="#eee9df"/>
+      <path d="M0 1H5" stroke="#465661" stroke-width="1.7"/>
+    </pattern>
+    <!-- The reflective face lies at x=0; the opaque substrate is behind it. -->
+    <g id="grating">
+      <rect x="-10" y="-23" width="10" height="46" fill="#49545b"/>
+      <rect x="-5" y="-23" width="5" height="46" fill="url(#grooves)"/>
+      <path d="M0-23V23" stroke="#34444d" stroke-width="1.8"/>
+    </g>
+    <marker id="control" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0L8 4 0 8" fill="none" stroke="#447375" stroke-width="1.6"/>
+    </marker>
+    <path id="lens" d="M0-31Q14 0 0 31Q-14 0 0-31Z" fill="#c6dada" fill-opacity=".68" stroke="#52636a" stroke-width="1.8"/>
+  </defs>
+  <rect width="360" height="360" fill="#f2efe8"/>
+  <g fill="#39424a" font-family="Calibri, Carlito, Arial, sans-serif" text-anchor="middle">
+    <!-- Agent outputs go to the positioning stage and the SLM controller. -->
+    <g fill="none" stroke="#447375" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#control)">
+      <path d="M168 79H135L119 97"/>
+      <path d="M186 96V118L179 127V157"/>
+    </g>
+    <rect x="153" y="55" width="87" height="41" rx="4" fill="#e5ece8" stroke="#447375" stroke-width="1.8"/>
+    <text x="196" y="81" font-size="19">AI agent</text>
+    <!-- Articulated arm grips the second lens mount above the clear aperture. -->
+    <path d="M107 117L164 108 198 140 239 128" fill="none" stroke="#424950" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M107 115L164 106 198 138 239 126" fill="none" stroke="#b1b3ad" stroke-width="7" stroke-linejoin="round"/>
+    <g fill="#dcdcd5" stroke="#4a5358" stroke-width="2.5">
+      <circle cx="107" cy="117" r="9"/><circle cx="164" cy="108" r="8"/><circle cx="198" cy="140" r="7"/>
+      <path d="M92 137l9-15h13l8 15z"/>
+    </g>
+    <path d="M233 128l10 12m-7-8-3 13 9 10m0-20 9 6-1 12" fill="none" stroke="#485258" stroke-width="3.8"/>
+    <!-- Reflection gratings face inward at the ends of the 4f relay.
+         Each color focuses on a distinct pixel of the shared Fourier plane. -->
+    <g stroke-linejoin="round">
+      <path d="M56 186L119 166 180 173 241 166 304 186 300 202 241 182 180 175 119 182 60 202Z" fill="#777cb1" fill-opacity=".24"/>
+      <path d="M56 186H119L180 193 241 186H304L300 202H241L180 195 119 202H60Z" fill="#447e76" fill-opacity=".19"/>
+      <path d="M56 186L119 206 180 213 241 206 304 186 300 202 241 222 180 215 119 222 60 202Z" fill="#b8724c" fill-opacity=".24"/>
+      <g fill="none" stroke-width="2">
+        <path d="M58 194L119 174H241L302 194" stroke="#666aa8"/>
+        <path d="M58 194H302" stroke="#407a71"/>
+        <path d="M58 194L119 214H241L302 194" stroke="#a45a38"/>
+      </g>
+    </g>
+    <!-- Both external beams fold toward the front faces of the gratings. -->
+    <g fill="none" stroke="#424d55" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M91 149L58 194M73 163l-5 17 13-10"/>
+      <path d="M302 194L269 149m2 12-2-12 11 6"/>
+    </g>
+    <use href="#grating" transform="translate(58 194) rotate(-14)"/>
+    <use href="#lens" transform="translate(119 194)"/>
+    <path d="M242 153h8l-6 11h-4z" fill="#666f73"/>
+    <use href="#lens" transform="translate(241 194)"/>
+    <use href="#grating" transform="translate(302 194) scale(-1 1) rotate(-14)"/>
+    <rect x="176" y="162" width="8" height="64" fill="url(#pixels)" stroke="#38444d" stroke-width="1.5"/>
+    <g stroke="#f2efe8" stroke-width=".8">
+      <circle cx="180" cy="174" r="3" fill="#777cb1"/>
+      <circle cx="180" cy="194" r="3" fill="#518b80"/>
+      <circle cx="180" cy="214" r="3" fill="#b8724c"/>
+    </g>
+    <g font-size="17">
+      <text x="58" y="244">G1</text>
+      <text x="119" y="244">L1</text>
+      <text x="180" y="245" font-weight="bold">SLM</text>
+      <text x="241" y="244">L2</text>
+      <text x="302" y="244">G2</text>
+      <text x="180" y="266">Fourier plane</text>
+    </g>
+    <path d="M58 274v5h244v-5" fill="none" stroke="#737c7b" stroke-width="1.4"/>
+    <text x="180" y="304" font-size="20">4f pulse shaper</text>
+  </g>
+</svg>

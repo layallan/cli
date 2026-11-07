@@ -1,6 +1,6 @@
-:HL["/cli/_next/static/chunks/0ic17eu30ycjj.css","style"]
-:HL["/cli/images/frontiers/autonomous.jpg","image"]
-:HL["/cli/images/frontiers/quantum.jpg","image"]
-:HL["/cli/images/frontiers/health.jpg","image"]
-:HL["/cli/images/frontiers/materials.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"8J_hsaKXkAIFsDmBgTuAj"}
+:HL["/cli/_next/static/chunks/0.saahgpvaa~r.css","style"]
+:HL["/cli/images/frontiers/adaptive-chirp.svg","image"]
+:HL["/cli/images/frontiers/optical-trap.webp","image"]
+:HL["/cli/images/frontiers/uv-molecule.webp","image"]
+:HL["/cli/images/frontiers/agent-optics.svg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"1MGPcFxkgzUU8e4grzU3D"}
