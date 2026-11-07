@@ -1,0 +1,98 @@
+[
+  {
+    "doi": "10.1364/ome.584710",
+    "title": "Charged-particle control via spatio-temporally tailored pulses from gas-based nonlinear optics [Invited]",
+    "venue": "Optical Materials Express 16(3), 611",
+    "year": "2026"
+  },
+  {
+    "doi": "10.1117/1.ap.8.3.036004",
+    "title": "Deep learning-assisted modeling for χ(2) nonlinear optics",
+    "venue": "Advanced Photonics 8(3), 036004",
+    "year": "2026"
+  },
+  {
+    "doi": "10.1038/s41377-026-02375-6",
+    "title": "Hybrid deep reconstruction for vignetting-free upconversion imaging through scattering in epsilon-near-zero materials",
+    "venue": "Light: Science & Applications 15(1), 327",
+    "year": "2026"
+  },
+  {
+    "doi": "10.1109/tmi.2026.3671287",
+    "title": "Modality-Agnostic Federated Learning With Adaptive Updates for Heterogeneous Medical Image Tasks",
+    "venue": "IEEE Transactions on Medical Imaging 45(6), 3276-3286",
+    "year": "2026"
+  },
+  {
+    "doi": "10.1117/1.ap.8.4.044003",
+    "title": "Structured light at the extreme: harnessing spatiotemporal control for high-field laser–matter interactions",
+    "venue": "Advanced Photonics 8(4), 044003",
+    "year": "2026"
+  },
+  {
+    "doi": "10.1117/1.apn.5.6.066002",
+    "title": "Tunable phase-coherent FWM for quantum wavelength interconnects",
+    "venue": "Advanced Photonics Nexus 5(6), 066002",
+    "year": "2026"
+  },
+  {
+    "doi": "10.1038/s44328-025-00053-y",
+    "title": "Accurate label free classification of cancerous extracellular vesicles using nanoaperture optical tweezers and deep learning",
+    "venue": "npj Biosensing 2(1), 33",
+    "year": "2025"
+  },
+  {
+    "doi": "10.1364/ol.583205",
+    "title": "Antisymmetric chirp transfer to high-energy ultraviolet pulses via gas-based chirped four-wave mixing",
+    "venue": "Optics Letters 50(24), 7460",
+    "year": "2025"
+  },
+  {
+    "doi": "10.1063/5.0252720",
+    "title": "Multi-modality deep learning for pulse prediction in homogeneous nonlinear systems via parametric conversion",
+    "venue": "APL Photonics 10(5), 050803",
+    "year": "2025"
+  },
+  {
+    "doi": "10.34133/ultrafastscience.0112",
+    "title": "Nonlinear Shaping in the Picosecond Gap",
+    "venue": "Ultrafast Science 4, 0112",
+    "year": "2025"
+  },
+  {
+    "doi": "10.1007/s44291-025-00093-8",
+    "title": "Real-time forecasting of pathological gait via IMU navigation: a few-shot and generative learning framework for wearable devices",
+    "venue": "Discover Electronics 2(1), 51",
+    "year": "2025"
+  },
+  {
+    "doi": "10.1364/oe.542590",
+    "title": "Optimizing spectral phase transfer in four-wave mixing with gas-filled capillaries",
+    "venue": "Optics Express 32(25), 44397",
+    "year": "2024"
+  },
+  {
+    "doi": "10.1017/hpl.2024.33",
+    "title": "The Linac Coherent Light Source II photoinjector laser infrastructure",
+    "venue": "High Power Laser Science and Engineering 12, e51",
+    "year": "2024"
+  },
+  {
+    "doi": "10.1002/mop.33455",
+    "title": "A novel self‐packaged DBBPF with multiple TZs for 5G sub‐6 GHz applications",
+    "venue": "Microwave and Optical Technology Letters 65(1), 62-68",
+    "year": "2023"
+  },
+  {
+    "doi": "10.1021/acs.nanolett.2c01222",
+    "title": "Coupling Perovskite Quantum Dot Pairs in Solution using a Nanoplasmonic Assembly",
+    "venue": "Nano Letters 22(13), 5287-5293",
+    "year": "2022"
+  },
+  {
+    "doi": "10.1109/lmwc.2020.3030189",
+    "title": "Design of a Compact SISL BPF With SEMCP for 5G Sub-6 GHz Bands",
+    "venue": "IEEE Microwave and Wireless Components Letters 30(12), 1121-1124",
+    "year": "2020"
+  }
+]
