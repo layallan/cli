@@ -674,6 +674,11 @@ h3 {
   gap: clamp(60px, 10vw, 150px);
 }
 
+.join-contact {
+  font-size: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+  line-height: 1.5;
+}
+
 .join-roles {
   border-color: var(--line);
 }
@@ -681,6 +686,8 @@ h3 {
 .join-roles span {
   border-color: var(--line);
   color: var(--ink);
+  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+  line-height: 1.4;
 }
 
 .research-list {

@@ -110,7 +110,7 @@ export default function TeamPage() {
               <p className="large-copy">
                 We welcome students from all backgrounds, including first-generation college students and students from groups underrepresented in science and engineering.
               </p>
-              <p>To discuss a research project, email <a href="mailto:haozh@g.ucla.edu">Hao Zhang</a> with a few lines about your interests and the questions you would like to explore.</p>
+              <p className="join-contact">To discuss a research project, email <a href="mailto:haozh@g.ucla.edu">Hao Zhang</a> with a few lines about your interests and the questions you would like to explore.</p>
               <div className="join-roles">
                 <span>Graduate researchers</span>
                 <span>Postdoctoral scholars</span>
