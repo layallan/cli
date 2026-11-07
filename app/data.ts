@@ -2,43 +2,23 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export const frontiers = [
   {
-    slug: "autonomous",
-    title: "Autonomous Science and Advanced Instruments",
-    short:
-      "Digital twins and adaptive control for complex scientific instruments.",
-    description:
-      "Physics-grounded digital twins, adaptive experiments, and intelligent control for lasers, accelerators, advanced light sources, and scientific instrumentation.",
-    image: `${basePath}/images/frontiers/autonomous.jpg`,
-    capabilities: [
-      "Physics-grounded digital twins",
-      "Adaptive experiments",
-      "Intelligent instrument control",
-      "Lasers, accelerators, and light sources",
-    ],
-  },
-  {
-    slug: "quantum",
-    title: "Quantum Information and Technologies",
-    short:
-      "Programmable quantum light, adaptive measurement, and intelligent control.",
-    description:
-      "Programmable quantum light, adaptive measurement, and intelligent control for quantum computing, communication, networking, and precision sensing.",
-    image: `${basePath}/images/frontiers/quantum.jpg`,
-    capabilities: [
-      "Programmable quantum light",
-      "Adaptive measurement",
-      "Quantum communication and networking",
-      "Precision sensing",
-    ],
+    slug: "light-intelligence",
+    title: "Light Intelligence",
+    short: "We learn which properties of light reveal the most about the system under study.",
+    description: "We use inverse design to choose how light interacts with a sample. Its measured response helps us test a physical model and decide what to probe next.",
+    image: `${basePath}/images/frontiers/adaptive-chirp.svg`,
+    imageAlt: "Feedback arrows link a brain sketch to a chirped pulse whose oscillations tighten from red to blue.",
+    capabilities: ["Physics-guided learning", "Inverse design", "Programmable optics"],
   },
   {
     slug: "health",
-    title: "Precision Health and Biopharmaceutical Discovery",
+    title: "Biosensing, Precision Health and Biopharmaceutical Discovery",
     short:
-      "Intelligent imaging and molecular sensing for biological discovery.",
+      "Optical sensing and imaging to characterize biological samples and support therapeutic discovery.",
     description:
       "Intelligent imaging, molecular sensing, and multimodal inference for personalized medicine, biological characterization, and therapeutic development.",
-    image: `${basePath}/images/frontiers/health.jpg`,
+    image: `${basePath}/images/frontiers/optical-trap.webp`,
+    imageAlt: "A microscope objective focuses a trapping beam onto a suspended vesicle.",
     capabilities: [
       "Intelligent imaging",
       "Molecular sensing",
@@ -48,17 +28,35 @@ export const frontiers = [
   },
   {
     slug: "materials",
-    title: "Molecular and Materials Discovery for Energy and Climate",
+    title: "Light for Quantum Science, Energy & Climate",
     short:
-      "Ultrafast measurement and physics-guided inference of material dynamics.",
+      "We generate quantum light and use ultrafast spectroscopy to study molecules and materials for energy conversion and sustainable chemistry.",
     description:
-      "Ultrafast pump–probe measurement and physics-guided inference of atomic, molecular, and material dynamics for energy conversion, catalysis, sustainable chemistry, and climate technologies.",
-    image: `${basePath}/images/frontiers/materials.jpg`,
+      "We study how to generate and convert quantum light, and use ultrafast measurements to follow molecular and material dynamics relevant to energy conversion and catalysis.",
+    image: `${basePath}/images/frontiers/uv-molecule.webp`,
+    imageAlt: "A violet beam illuminates an aromatic ring in a ball-and-stick molecular model.",
     capabilities: [
+      "Quantum light and wavelength conversion",
       "Ultrafast pump–probe measurement",
       "Physics-guided inference",
       "Catalysis and energy conversion",
       "Sustainable chemistry",
+    ],
+  },
+  {
+    slug: "autonomous",
+    title: "Autonomous Science and Advanced Instruments",
+    short:
+      "Digital twins and adaptive control for complex scientific instruments.",
+    description:
+      "Physics-grounded digital twins, adaptive experiments, and intelligent control for lasers, accelerators, advanced light sources, and scientific instrumentation.",
+    image: `${basePath}/images/frontiers/agent-optics.svg`,
+    imageAlt: "An AI agent controls a robotic arm and a Fourier-plane SLM in a 4f pulse shaper with two reflection gratings.",
+    capabilities: [
+      "Physics-grounded digital twins",
+      "Adaptive experiments",
+      "Intelligent instrument control",
+      "Lasers, accelerators, and light sources",
     ],
   },
 ] as const;

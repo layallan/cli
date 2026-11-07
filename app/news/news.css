@@ -1,0 +1,32 @@
+.lab-news-list {
+  max-width: 84ch;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lab-news-list li {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--line);
+  line-height: 1.65;
+}
+
+.lab-news-list time {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.lab-news-list a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+@media (max-width: 540px) {
+  .lab-news-list li {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}

@@ -15,22 +15,20 @@ export default function ResearchPage() {
     <SiteShell>
       <main>
         <PageHero
-          eyebrow="Research"
-          title="Light Intelligence is a new experimental language."
-          description="Light Intelligence unites programmable light, physical inference, and adaptive experimentation. It enables light to interrogate matter, reveal hidden states, and reshape experiments in real time across four application frontiers."
+          title="Research"
+          description="We develop Light Intelligence for scientific discovery and new applications. Across these four directions, we use programmable light and learning algorithms to probe biological samples, study quantum systems and materials, and guide scientific instruments."
         />
         <section className="section shell research-list">
-          {frontiers.map((frontier, index) => (
+          {frontiers.map((frontier) => (
             <article
               className="research-item"
               id={frontier.slug}
               key={frontier.slug}
-          >
-              <div className="research-image">
-                <img src={frontier.image} alt="" />
+            >
+              <div className="research-image" id={frontier.slug === "materials" ? "quantum" : undefined}>
+                <img src={frontier.image} alt={frontier.imageAlt} />
               </div>
               <div className="research-copy">
-                <p className="eyebrow">Application frontier 0{index + 1}</p>
                 <h2>{frontier.title}</h2>
                 <p className="large-copy">{frontier.description}</p>
                 <div className="capability-list">
@@ -41,7 +39,6 @@ export default function ResearchPage() {
               </div>
             </article>
           ))}
-          <p className="image-credit">Concept images created with ChatGPT.</p>
         </section>
         <section className="section section-ink">
           <div className="shell research-method">

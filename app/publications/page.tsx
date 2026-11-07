@@ -21,8 +21,7 @@ export default function PublicationsPage() {
     <SiteShell>
       <main>
         <PageHero
-          eyebrow="Publications"
-          title="Ideas tested against the physical world."
+          title="Publications"
           description="Selected work spanning intelligent photonics, nonlinear optics, ultrafast science, quantum interfaces, imaging, and accelerator laser systems."
         />
         <section className="section shell publication-section">

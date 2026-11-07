@@ -16,8 +16,7 @@ export default function TeamPage() {
     <SiteShell>
       <main>
         <PageHero
-          eyebrow="People"
-          title="One team, fluent in many scientific languages."
+          title="Team"
           description="CLI brings together photonics, machine learning, physics, advanced instruments, and the application domains where they can create new knowledge."
         />
         <section className="section shell">
@@ -109,9 +108,9 @@ export default function TeamPage() {
             </div>
             <div>
               <p className="large-copy">
-                We are interested in people who enjoy crossing disciplinary
-                boundaries and testing ideas in real experiments.
+                We welcome students from all backgrounds, including first-generation college students and students from groups underrepresented in science and engineering.
               </p>
+              <p>To discuss a research project, email <a href="mailto:haozh@g.ucla.edu">Hao Zhang</a> with a few lines about your interests and the questions you would like to explore.</p>
               <div className="join-roles">
                 <span>Graduate researchers</span>
                 <span>Postdoctoral scholars</span>

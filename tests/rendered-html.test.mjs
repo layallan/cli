@@ -33,7 +33,7 @@ test("server-renders the CLI homepage", async () => {
     /<title>Center of Light Intelligence Research Lab<\/title>/i,
   );
   assert.match(html, /Teach light/);
-  assert.match(html, /Application frontiers/);
+  assert.match(html, /Research directions/);
   assert.match(html, /Education/);
   assert.doesNotMatch(html, /Your site is taking shape/);
 });
