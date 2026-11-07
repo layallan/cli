@@ -1,0 +1,89 @@
+[
+  {
+    "doi": "10.48550/arxiv.2603.15996",
+    "title": "Advanced Control of Electron Beams: Tailoring X-ray Production with Programmable Laser Shaping",
+    "venue": "arXiv:2603.15996",
+    "year": "2026"
+  },
+  {
+    "doi": "10.48550/arxiv.2604.03482",
+    "title": "Learning high-dimensional quantum entanglement through physics-guided neural networks",
+    "venue": "arXiv:2604.03482",
+    "year": "2026"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.12503",
+    "title": "Physics-Guided Inverse Design of Optical Waveforms for Nonlinear Electromagnetic Dynamics",
+    "venue": "arXiv:2603.12503",
+    "year": "2026",
+    "status": "Pre-accepted by Light: Advanced Manufacturing"
+  },
+  {
+    "doi": "10.48550/arxiv.2610.17166",
+    "title": "Programmable Hard-X-Ray Spectral Comb Generation via Laser-Compton Scattering",
+    "venue": "arXiv:2610.17166",
+    "year": "2026"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.19652",
+    "title": "Programmable spectral phase transfer to the ultraviolet by gas-filled-fibre four-wave mixing",
+    "venue": "arXiv:2603.19652",
+    "year": "2026"
+  },
+  {
+    "doi": "10.48550/arxiv.2601.03580",
+    "title": "Upstream Laser-based Longitudinal Enhancement of Relativistic Photoelectrons",
+    "venue": "arXiv:2601.03580",
+    "year": "2026",
+    "status": "Pre-accepted by Nature Communications"
+  },
+  {
+    "doi": "10.48550/arxiv.2503.22025",
+    "title": "Antisymmetric chirp transfer to high-energy ultraviolet pulses via gas-based chirped four-wave mixing",
+    "venue": "arXiv:2503.22025",
+    "year": "2025",
+    "publishedDoi": "10.1364/ol.583205"
+  },
+  {
+    "doi": "10.48550/arxiv.2503.21198",
+    "title": "Deep Learning Assisted Modeling for χ(2) Nonlinear Optics",
+    "venue": "arXiv:2503.21198",
+    "year": "2025",
+    "publishedDoi": "10.1117/1.ap.8.3.036004"
+  },
+  {
+    "doi": "10.21203/rs.3.rs-6499903/v1",
+    "title": "High-Accuracy Label-Free Classification of Cancerous Extracellular Vesicles with Nanoaperture Optical Tweezers and Deep Learning",
+    "venue": "Research Square",
+    "year": "2025",
+    "publishedDoi": "10.1038/s44328-025-00053-y"
+  },
+  {
+    "doi": "10.48550/arxiv.2508.13096",
+    "title": "Hybrid Deep Reconstruction for Vignetting-Free Upconversion Imaging through Scattering in ENZ Materials",
+    "venue": "arXiv:2508.13096",
+    "year": "2025",
+    "publishedDoi": "10.1038/s41377-026-02375-6"
+  },
+  {
+    "doi": "10.48550/arxiv.2512.04312",
+    "title": "Universal Quantum Interconnects via Phase-Coherent Four-Wave Mixing",
+    "venue": "arXiv:2512.04312",
+    "year": "2025",
+    "publishedDoi": "10.1117/1.apn.5.6.066002"
+  },
+  {
+    "doi": "10.48550/arxiv.2404.16993",
+    "title": "Optimizing Spectral Phase Transfer in Four-Wave Mixing with Gas-filled Capillaries: A Trade-off Study",
+    "venue": "arXiv:2404.16993",
+    "year": "2024",
+    "publishedDoi": "10.1364/oe.542590"
+  },
+  {
+    "doi": "10.48550/arxiv.2405.09569",
+    "title": "Real-Time Forecasting of Pathological Gait via IMU Navigation: A Few-Shot and Generative Learning Framework for Wearable Devices",
+    "venue": "arXiv:2405.09569",
+    "year": "2024",
+    "publishedDoi": "10.1007/s44291-025-00093-8"
+  }
+]

@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOT = ROOT / "public" / "journal-publications.json"
+PREPRINTS = ROOT / "public" / "preprints.json"
 ORCID = "0000-0002-8472-6137"
 SCHOLAR_ID = "L7n2XRAAAAAJ"
 CROSSREF = "https://api.crossref.org/works"
@@ -66,6 +67,7 @@ def record(work):
 
 def scholar_titles():
     titles = set()
+    preprints = {}
     start = 0
     while True:
         page = BeautifulSoup(get("https://scholar.google.ca/citations", user=SCHOLAR_ID,
@@ -80,6 +82,15 @@ def scholar_titles():
         for row in rows:
             fields = row.select(".gs_gray")
             venue = fields[-1].get_text(" ", strip=True) if fields else ""
+            arxiv = re.search(r"arxiv:\s*(\d{4}\.\d{4,5})", venue, re.I)
+            if arxiv:
+                identifier = arxiv.group(1)
+                doi = "10.48550/arxiv." + identifier
+                preprints[doi] = {
+                    "doi": doi, "title": row.select_one(".gsc_a_at").get_text(" ", strip=True),
+                    "venue": "arXiv:" + identifier, "year": "20" + identifier[:2],
+                }
+                continue
             if not venue or re.search(r"arxiv|conference|congress|patent|symposium|summit|\bproc\.|\bCLEO\b|photonic computing: from materials", venue, re.I):
                 continue
             if re.search(r"\b[IVX]{2,}\b|\b[A-Za-z]{1,4}\d[A-Z]\d?[A-Z]?\.\s*\d", venue):
@@ -87,7 +98,7 @@ def scholar_titles():
             titles.add(row.select_one(".gsc_a_at").get_text(" ", strip=True))
         more = page.select_one("#gsc_bpf_more")
         if len(rows) < 100 or (more and more.has_attr("disabled")):
-            return titles
+            return titles, preprints
         start += len(rows)
 
 
@@ -124,10 +135,13 @@ def refresh():
         add(get(f"{CROSSREF}/{doi}").json()["message"])
 
     try:
-        titles = scholar_titles()
+        titles, discovered = scholar_titles()
     except (requests.RequestException, RuntimeError) as exc:
         print(f"Scholar unavailable ({exc}). Using verified ORCID and publisher records.")
     else:
+        existing = {p["doi"]: p for p in json.loads(PREPRINTS.read_text(encoding="utf-8"))}
+        # Keep curated repository titles, journal links and acceptance notes.
+        save_snapshot(PREPRINTS, {**discovered, **existing}.values())
         known = {normalized(p["title"]) for p in records.values()}
         for title in sorted(titles):
             key = normalized(title)
@@ -150,11 +164,15 @@ def refresh():
 
     if not records:
         raise RuntimeError("No verified journal records. The existing snapshot was preserved.")
-    ordered = sorted(records.values(), key=lambda p: (-int(p["year"]), p["title"].casefold(), p["doi"]))
-    temp = SNAPSHOT.with_suffix(".tmp")
+    save_snapshot(SNAPSHOT, records.values())
+    print(f"Saved {len(records)} journal articles.")
+
+
+def save_snapshot(path, records):
+    ordered = sorted(records, key=lambda p: (-int(p["year"]), p["title"].casefold(), p["doi"]))
+    temp = path.with_suffix(".tmp")
     temp.write_text(json.dumps(ordered, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    temp.replace(SNAPSHOT)
-    print(f"Saved {len(ordered)} journal articles.")
+    temp.replace(path)
 
 
 if __name__ == "__main__":
