@@ -1,4 +1,3 @@
-:HL["/cli/_next/static/chunks/0.saahgpvaa~r.css","style"]
-:HL["/cli/images/home/optical-table.webp","image"]
-:HL["/cli/images/home/xtcav-measurement.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"gallery","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"1MGPcFxkgzUU8e4grzU3D"}
+:HL["/cli/_next/static/chunks/0.koie1jdg51l.css","style"]
+:HL["/cli/_next/static/chunks/02s81~nly.mgp.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"gallery","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"qvlTbfgH5kRKA7Jvmme3O"}
