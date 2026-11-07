@@ -1,0 +1,9 @@
+.research-slides { max-width: 960px; margin: 0 auto; }
+.research-slides figure { margin: 0; }
+.research-slide-frame { display: grid; place-items: center; height: clamp(240px, 58vw, 550px); background: #101b21; }
+.research-slide-frame img { width: 100%; height: 100%; min-height: 0; object-fit: contain; }
+.research-slide-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .8rem 1.5rem; padding-block: 1rem; }
+.slide-count { font-size: 1rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.research-slide-controls { display: flex; gap: .45rem; }
+.research-slide-controls button { min-width: 44px; min-height: 44px; padding: .4rem .8rem; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 4px; cursor: pointer; font: inherit; }
+.research-slide-controls button:hover, .research-slide-controls button:focus-visible { background: #e5eeee; }

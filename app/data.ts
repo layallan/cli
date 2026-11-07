@@ -61,67 +61,6 @@ export const frontiers = [
   },
 ] as const;
 
-export const publications = [
-  {
-    year: "2026",
-    title: "Deep learning-assisted modeling for χ(2) nonlinear optics",
-    venue: "Advanced Photonics 8, 036004",
-  },
-  {
-    year: "2026",
-    title:
-      "Hybrid deep reconstruction for vignetting-free upconversion imaging through scattering in ENZ materials",
-    venue: "Light: Science & Applications 15, 327",
-  },
-  {
-    year: "2026",
-    title:
-      "Structured light at the extreme: harnessing spatiotemporal control for high-field laser–matter interactions",
-    venue: "Advanced Photonics, in press",
-  },
-  {
-    year: "2026",
-    title:
-      "Universal quantum interconnects via phase-coherent four-wave mixing",
-    venue: "Advanced Photonics Nexus, in press",
-  },
-  {
-    year: "2026",
-    title:
-      "Charged-particle control via spatio-temporally tailored pulses from gas-based nonlinear optics",
-    venue: "Optical Materials Express 16, 611–627",
-  },
-  {
-    year: "2025",
-    title:
-      "Multi-modality deep learning for pulse prediction in homogeneous nonlinear systems via parametric conversion",
-    venue: "APL Photonics 10",
-  },
-  {
-    year: "2025",
-    title:
-      "Accurate label-free classification of cancerous extracellular vesicles using nanoaperture optical tweezers and deep learning",
-    venue: "npj Biosensing 2, 33",
-  },
-  {
-    year: "2024",
-    title:
-      "Optimizing spectral phase transfer in four-wave mixing with gas-filled capillaries",
-    venue: "Optics Express 32, 44397–44412",
-  },
-  {
-    year: "2024",
-    title: "The LCLS-II photoinjector laser infrastructure",
-    venue: "High Power Laser Science and Engineering · Cover Feature & Editor’s Pick",
-  },
-  {
-    year: "2022",
-    title:
-      "Coupling perovskite quantum dot pairs in solution using a nanoplasmonic assembly",
-    venue: "Nano Letters",
-  },
-] as const;
-
 export const funding = [
   {
     agency: "U.S. Department of Energy",

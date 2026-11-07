@@ -40,36 +40,6 @@ export default function ResearchPage() {
             </article>
           ))}
         </section>
-        <section className="section section-ink">
-          <div className="shell research-method">
-            <div>
-              <p className="eyebrow eyebrow-light">How we work</p>
-              <h2>Close the loop.</h2>
-            </div>
-            <div className="method-steps">
-              <div>
-                <span>01</span>
-                <h3>Program</h3>
-                <p>Shape light in space, time, frequency, and quantum state.</p>
-              </div>
-              <div>
-                <span>02</span>
-                <h3>Interrogate</h3>
-                <p>Design measurements that reveal otherwise hidden states.</p>
-              </div>
-              <div>
-                <span>03</span>
-                <h3>Infer</h3>
-                <p>Combine physical models with learning from data.</p>
-              </div>
-              <div>
-                <span>04</span>
-                <h3>Adapt</h3>
-                <p>Use what we learn to decide and improve the next experiment.</p>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
     </SiteShell>
   );
