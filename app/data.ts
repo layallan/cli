@@ -28,20 +28,30 @@ export const frontiers = [
   },
   {
     slug: "materials",
-    title: "Light for Quantum Science, Energy & Climate",
+    title: "Light for Energy and Climate",
     short:
-      "We generate quantum light and use ultrafast spectroscopy to study molecules and materials for energy conversion and sustainable chemistry.",
+      "We use ultrafast spectroscopy to follow how molecules and materials absorb and transfer energy.",
     description:
-      "We study how to generate and convert quantum light, and use ultrafast measurements to follow molecular and material dynamics relevant to energy conversion and catalysis.",
+      "We use timed pairs of laser pulses to excite a sample and measure its response. Following how energy moves after excitation helps us study the molecular processes behind energy conversion and catalysis.",
     image: `${basePath}/images/frontiers/uv-molecule.webp`,
     imageAlt: "A violet beam illuminates an aromatic ring in a ball-and-stick molecular model.",
     capabilities: [
-      "Quantum light and wavelength conversion",
       "Ultrafast pump–probe measurement",
       "Physics-guided inference",
       "Catalysis and energy conversion",
       "Sustainable chemistry",
     ],
+  },
+  {
+    slug: "quantum",
+    title: "Interconnects for Quantum Computing",
+    short:
+      "We study how to connect quantum devices that use light at different wavelengths.",
+    description:
+      "A quantum device may emit light at a different wavelength from the one another device can absorb. We study how four-wave mixing in gas-filled capillaries can bridge that mismatch while preserving the phase of the optical signal.",
+    image: `${basePath}/images/frontiers/quantum-spectrum.webp`,
+    imageAlt: "A single oscillating electric field enters a capillary as a red pulse, passes through green amid a rainbow wash, and emerges as a violet pulse with more closely spaced oscillations.",
+    capabilities: ["Quantum transduction", "Phase-coherent four-wave mixing", "Photonic interconnects"],
   },
   {
     slug: "autonomous",
@@ -58,6 +68,17 @@ export const frontiers = [
       "Intelligent instrument control",
       "Lasers, accelerators, and light sources",
     ],
+  },
+  {
+    slug: "electron-beams",
+    title: "High-Brightness Electron Beams and X-ray Sources",
+    short:
+      "We shape laser pulses to control electron bunches for free-electron lasers and to tune X-rays produced by laser–electron collisions.",
+    description:
+      "At a photocathode, the timing of the laser pulse helps set when electrons are emitted. We shape that pulse and measure how charge and energy are distributed along the accelerated bunch. We also study how shaping the laser pulse in a Compton scattering source changes the X-ray spectrum.",
+    image: `${basePath}/images/frontiers/photoinjector-srf.webp`,
+    imageAlt: "Violet laser pulses strike a photocathode. Blue electron bunches travel along the axis of a superconducting radiofrequency cavity shown in cutaway.",
+    capabilities: ["Photocathode laser shaping", "Longitudinal phase space", "Free-electron lasers", "Laser–Compton X-ray sources"],
   },
 ] as const;
 

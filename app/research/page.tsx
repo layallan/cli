@@ -7,7 +7,7 @@ import { frontiers } from "../data";
 export const metadata: Metadata = {
   title: "Research",
   description:
-    "Four application frontiers for Light Intelligence, from quantum technology to autonomous science.",
+    "Research in Light Intelligence, biosensing, energy and climate, quantum interconnects, autonomous instruments, and accelerator-based X-ray sources.",
 };
 
 export default function ResearchPage() {
@@ -16,7 +16,7 @@ export default function ResearchPage() {
       <main>
         <PageHero
           title="Research"
-          description="We develop Light Intelligence for scientific discovery and new applications. Across these four directions, we use programmable light and learning algorithms to probe biological samples, study quantum systems and materials, and guide scientific instruments."
+          description="We develop Light Intelligence for scientific discovery and new applications. Our research ranges from probing cells and tracking energy in molecules to connecting quantum devices, automating experiments, and shaping electron beams for X-ray sources."
         />
         <section className="section shell research-list">
           {frontiers.map((frontier) => (
@@ -25,7 +25,7 @@ export default function ResearchPage() {
               id={frontier.slug}
               key={frontier.slug}
             >
-              <div className="research-image" id={frontier.slug === "materials" ? "quantum" : undefined}>
+              <div className="research-image">
                 <img src={frontier.image} alt={frontier.imageAlt} />
               </div>
               <div className="research-copy">
