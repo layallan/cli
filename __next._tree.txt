@@ -2,4 +2,4 @@
 :HL["/cli/_next/static/chunks/03vkfv_y.26~f.css","style"]
 :HL["/cli/images/supporters/lambda.svg","image"]
 :HL["/cli/images/supporters/google.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"qvlTbfgH5kRKA7Jvmme3O"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"ku9a-VDUYlkj91XYHF9NS"}

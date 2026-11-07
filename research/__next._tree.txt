@@ -2,5 +2,7 @@
 :HL["/cli/images/frontiers/adaptive-chirp.svg","image"]
 :HL["/cli/images/frontiers/optical-trap.webp","image"]
 :HL["/cli/images/frontiers/uv-molecule.webp","image"]
+:HL["/cli/images/frontiers/quantum-spectrum.webp","image"]
 :HL["/cli/images/frontiers/agent-optics.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"qvlTbfgH5kRKA7Jvmme3O"}
+:HL["/cli/images/frontiers/photoinjector-srf.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"ku9a-VDUYlkj91XYHF9NS"}
